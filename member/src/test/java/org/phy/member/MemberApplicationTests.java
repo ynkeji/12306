@@ -1,10 +1,10 @@
-package org.phy.l12306;
+package org.phy.member;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApplicationTests {
+class MemberApplicationTests {
 
     @Test
     void contextLoads() {
