@@ -1,4 +1,4 @@
-package train.member.controller;
+package org.phy.member.controller;
 
 
 import org.springframework.web.bind.annotation.GetMapping;
