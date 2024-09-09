@@ -4,6 +4,7 @@ import cn.hutool.core.util.ObjectUtil;
 import jakarta.annotation.Resource;
 import org.phy.common.exception.BusinessException;
 import org.phy.common.exception.BusinessExceptionEnum;
+import org.phy.common.util.SnowUtil;
 import org.phy.member.domain.Member;
 import org.phy.member.domain.MemberExample;
 import org.phy.member.mapper.MemberMapper;
@@ -34,7 +35,7 @@ public class MemberService {
             throw new BusinessException(BusinessExceptionEnum.MEMBER_MOBILE_EXIST);
         }
         Member member = new Member();
-        member.setId(System.currentTimeMillis());
+        member.setId(SnowUtil.getSnowflakeNextId());
         member.setMobile(mobile.getMobile());
         memberMapper.insert(member);
         return member.getId();
