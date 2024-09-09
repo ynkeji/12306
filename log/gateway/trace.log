@@ -853,3 +853,25 @@ Caused by: java.net.ConnectException: Connection refused: getsockopt
 2024-09-09 15:58:21.109 INFO  org.phy.gateway.GatewayApplication                :57   main [32m                [0;39m Started GatewayApplication in 2.247 seconds (process running for 2.755)
 2024-09-09 15:58:21.111 INFO  org.phy.gateway.GatewayApplication                :16   main [32m                [0;39m 启动成功
 2024-09-09 15:58:21.111 INFO  org.phy.gateway.GatewayApplication                :17   main [32m                [0;39m Member地址: 	http://127.0.0.1:8000
+2024-09-09 16:18:23.147 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-09-09 16:18:23.176 INFO  org.phy.gateway.GatewayApplication                :51   main [32m                [0;39m Starting GatewayApplication using Java 17.0.12 with PID 27628 (F:\桌面\12306\gateway\target\classes started by yunnuo in F:\桌面\12306)
+2024-09-09 16:18:23.178 INFO  org.phy.gateway.GatewayApplication                :630  main [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-09-09 16:18:23.610 INFO  o.springframework.cloud.context.scope.GenericScope:282  main [32m                [0;39m BeanFactory id=390a6740-1f4b-371e-8b32-9ee7183f016d
+2024-09-09 16:18:24.203 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   main [32m                [0;39m Loaded RoutePredicateFactory [After]
+2024-09-09 16:18:24.203 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   main [32m                [0;39m Loaded RoutePredicateFactory [Before]
+2024-09-09 16:18:24.203 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   main [32m                [0;39m Loaded RoutePredicateFactory [Between]
+2024-09-09 16:18:24.203 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   main [32m                [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-09-09 16:18:24.203 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   main [32m                [0;39m Loaded RoutePredicateFactory [Header]
+2024-09-09 16:18:24.203 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   main [32m                [0;39m Loaded RoutePredicateFactory [Host]
+2024-09-09 16:18:24.203 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   main [32m                [0;39m Loaded RoutePredicateFactory [Method]
+2024-09-09 16:18:24.204 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   main [32m                [0;39m Loaded RoutePredicateFactory [Path]
+2024-09-09 16:18:24.204 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   main [32m                [0;39m Loaded RoutePredicateFactory [Query]
+2024-09-09 16:18:24.204 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   main [32m                [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-09-09 16:18:24.204 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   main [32m                [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-09-09 16:18:24.204 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   main [32m                [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-09-09 16:18:24.204 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   main [32m                [0;39m Loaded RoutePredicateFactory [Weight]
+2024-09-09 16:18:24.204 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   main [32m                [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-09-09 16:18:24.625 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  main [32m                [0;39m Netty started on port 8000
+2024-09-09 16:18:24.931 INFO  org.phy.gateway.GatewayApplication                :57   main [32m                [0;39m Started GatewayApplication in 2.282 seconds (process running for 2.767)
+2024-09-09 16:18:24.934 INFO  org.phy.gateway.GatewayApplication                :16   main [32m                [0;39m 启动成功
+2024-09-09 16:18:24.934 INFO  org.phy.gateway.GatewayApplication                :17   main [32m                [0;39m Member地址: 	http://127.0.0.1:8000
